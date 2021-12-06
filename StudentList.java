@@ -28,7 +28,7 @@ public class StudentList {
 			//System.out.println(r);
 			String i[] = r.split(",");	
 			Random x = new Random();
-				int y = x.nextInt(4);
+				int y = x.nextInt(i.length);
 					System.out.println(i[y]);
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");			
